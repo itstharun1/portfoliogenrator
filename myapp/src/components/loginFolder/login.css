@@ -1,0 +1,69 @@
+
+.img-login{
+    height: 0vh;
+}
+
+.container{
+    background-color: antiquewhite;
+    height: 100vh;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 700px) {
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(214, 208, 216);
+    }
+    .img-login{
+        height: 60vh;
+        padding: 100px;
+    }
+    .login-page{
+        background-color: antiquewhite;
+        height: 60vh;
+        width: 30vw;
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+        padding: 20px;
+        text-align: center;
+      }
+    
+      .inputBox{
+        margin: 10px;
+        padding: 5px;
+      }
+    
+    button{
+        padding: 10px;
+        margin: 5px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-width: 0px;
+    }
+  }
+  .login-page{
+   
+    margin-top:60px ;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .inputBox{
+    margin: 5px;
+    padding: 5px;
+  }
+
+button{
+    padding: 10px;
+    margin: 5px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-width: 0px;
+}
+button:hover{
+    background-color:rgb(214, 208, 216);
+}
