@@ -2,7 +2,7 @@ import {Component} from 'react'
 
 import './login.css'
 
-import logina from './logina.json';
+import registera from './registera.json';
 
 import Lottie from "lottie-react"
 
@@ -33,7 +33,7 @@ class Register extends Component{
 
     onRegister=()=>{
         const {name,password,email}=this.state;
-        if(name===""  || password===""||email===""){
+        if(name==="" || password===""||email===""){
             alert("Please fill all fields");
         }else{
             alert("successfully registered, Please Login");
@@ -49,7 +49,7 @@ class Register extends Component{
         return(
             <div className='container'>
                 <div>
-                <Lottie className='img-login' animationData={logina}/>
+                <Lottie className='img-login' animationData={registera}/>
                 </div>
                 <div className='login-page'>
                     <h1>Please Register!</h1>
